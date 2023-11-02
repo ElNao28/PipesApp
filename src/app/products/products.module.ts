@@ -5,6 +5,7 @@ import { ProductsRoutingModule } from './products-routing.module';
 import { BasicsPagesComponent } from './pages/basics-pages/basics-pages.component';
 import { NumbersPageComponent } from './pages/numbers-page/numbers-page.component';
 import { UnCommonPageComponent } from './pages/un-common-page/un-common-page.component';
+import { PrimerNgModule } from '../primer-ng/primer-ng.module';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { UnCommonPageComponent } from './pages/un-common-page/un-common-page.com
   ],
   imports: [
     CommonModule,
-    ProductsRoutingModule
+    ProductsRoutingModule,
+    PrimerNgModule
   ]
 })
 export class ProductsModule { }
